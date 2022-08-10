@@ -1,0 +1,40 @@
+{ 
+    "streamlinkPath": "streamlink.exe", 
+    "portsFrom": 50001, 
+    // https://streamlink.github.io/cli.html#command-line-usage
+    "streamlinkOptions": { 
+        "_common": [ 
+            "--loglevel info", 
+            "--player-external-http", 
+            "--default-stream \"720p60,720p,480p60,480p,360p60,360p,best,worst\"", 
+            "--retry-streams 5", 
+            "--retry-max 2", 
+            "--retry-open 2", 
+            // "--stream-sorting-excludes STREAMS", 
+            "--stream-timeout 15", 
+            "dummyForEnd" 
+        ], 
+        "nicolive": [ 
+            // "--niconico-email EMAIL", 
+            // "--niconico-password PASSWORD", 
+            // "--niconico-user-session VALUE", 
+            // "--niconico-purge-credentials", 
+            // "--niconico-timeshift-offset [HH:]MM:SS", 
+            "dummyForEnd" 
+        ], 
+        "twitch": [ 
+            // "--twitch-api-header KEY=VALUE", 
+            "--twitch-disable-ads", 
+            "--twitch-disable-hosting", 
+            "--twitch-disable-reruns", 
+            "--twitch-low-latency", 
+            "dummyForEnd" 
+        ], 
+        "youtube": [ 
+            // "", 
+            "dummyForEnd" 
+        ], 
+        "dummyForEnd": null 
+    }, 
+    "dummyForEnd": null 
+}

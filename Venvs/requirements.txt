@@ -1,0 +1,8 @@
+altgraph==0.17.2
+chardet==5.0.0
+future==0.18.2
+pefile==2022.5.30
+pyinstaller==5.3
+pyinstaller-hooks-contrib==2022.8
+PySimpleGUI==4.60.3
+pywin32-ctypes==0.2.0
