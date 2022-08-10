@@ -1,15 +1,1 @@
-2022-08-10 20:09:18,202 - (50002) [cli][info] Found matching plugin twitch for URL https://www.twitch.tv/mar361
-2022-08-10 20:09:18,981 - (50002) [cli][info] Waiting for streams, retrying every 5.0 second(s)
-2022-08-10 20:09:29,381 - (50001) [cli][info] Found matching plugin twitch for URL https://www.twitch.tv/fonsi00101
-2022-08-10 20:09:30,047 - (50001) [cli][error] Unable to open URL: https://usher.ttvnw.net/api/channel/hls/fonsi00101.m3u8?player=twitchweb&p=710022&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=4f7ce51016205e12b08e763dde174ed1ae216649&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22fonsi00101%22%2C%22channel_id%22%3A177791371%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1660130970%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%22153.242.216.192%22%2C%22version%22%3A2%7D&fast_bread=True (('Connection aborted.', ConnectionResetError(10054, '既存の接続はリモート ホストに強制的に切断されました。', None, 10054, None)))
-2022-08-10 20:09:30,048 - (50001) [cli][info] Waiting for streams, retrying every 5.0 second(s)
-2022-08-10 20:09:30,604 - (50002) error: No playable streams found on this URL: https://www.twitch.tv/mar361
-2022-08-10 20:09:35,822 - (50001) [cli][info] Available streams: audio_only, 160p (worst), 360p, 480p, 720p60, 1080p60 (best)
-2022-08-10 20:09:35,822 - (50001) [cli][info] Starting server, access with one of:
-2022-08-10 20:09:35,822 - (50001) [cli][info]  http://127.0.0.1:50001/
-2022-08-10 20:09:35,823 - (50001) [cli][info]  http://172.20.224.1:50001/
-2022-08-10 20:09:35,823 - (50001) [cli][info]  http://192.168.10.2:50001/
-2022-08-10 20:09:44,791 - (50001) [cli][info] Got HTTP request from Lavf/58.76.100
-2022-08-10 20:09:44,792 - (50001) [cli][info] Opening stream: 720p60 (hls)
-2022-08-10 20:09:44,792 - (50001) [plugins.twitch][info] Will skip ad segments
-2022-08-10 20:09:44,792 - (50001) [plugins.twitch][info] Low latency streaming (HLS live edge: 2)
+
