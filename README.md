@@ -31,6 +31,7 @@ C#で見た目も中身の設計もきれいに作り直したい…　あるい
     - `Python 3.9` で動作確認
 
 
+
 #### 設定ファイル ( `streamlink.jsonc` )
 `streamlink-changer-py.exe` ないし `Code\main.py` と同じフォルダーに置いてください。
 
