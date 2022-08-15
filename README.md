@@ -90,17 +90,17 @@ OBS上に表示されたミラー元画面の大きさを変えるには、 **�
 
 Twitch配信をミラーする場合
 ```
-streamlink.exe --loglevel info --player-external-http --default-stream "720p60,720p,480p60,480p,360p60,360p,best,worst" --retry-streams 5 --retry-max 2 --retry-open 2 --stream-timeout 15 --twitch-disable-ads --twitch-disable-hosting --twitch-disable-reruns --twitch-low-latency --url https://www.twitch.tv/チャンネル名 --player-external-http-port ポート番号
+streamlink.exe --loglevel info --player-external-http --default-stream "720p60,720p,480p60,480p,360p60,360p,best,worst" --retry-streams 5 --retry-max 2 --retry-open 2 --stream-timeout 15 --ringbuffer-size "64M" --twitch-disable-ads --twitch-disable-hosting --twitch-disable-reruns --twitch-low-latency --url https://www.twitch.tv/チャンネル名 --player-external-http-port ポート番号
 ```
 
 YouTube配信をミラーする場合
 ```
-streamlink.exe --loglevel info --player-external-http --default-stream "720p60,720p,480p60,480p,360p60,360p,best,worst" --retry-streams 5 --retry-max 2 --retry-open 2 --stream-timeout 15 --url https://www.youtube.com/channel/チャンネル名/live --player-external-http-port ポート番号
+streamlink.exe --loglevel info --player-external-http --default-stream "720p60,720p,480p60,480p,360p60,360p,best,worst" --retry-streams 5 --retry-max 2 --retry-open 2 --stream-timeout 15 --ringbuffer-size "64M" --url https://www.youtube.com/channel/チャンネル名/live --player-external-http-port ポート番号
 ```
 
 niconico配信をミラーする場合
 ```
-streamlink.exe --loglevel info --player-external-http --default-stream "720p60,720p,480p60,480p,360p60,360p,best,worst" --retry-streams 5 --retry-max 2 --retry-open 2 --stream-timeout 15 --url https://live.nicovideo.jp/watch/チャンネル名 --player-external-http-port ポート番号
+streamlink.exe --loglevel info --player-external-http --default-stream "720p60,720p,480p60,480p,360p60,360p,best,worst" --retry-streams 5 --retry-max 2 --retry-open 2 --stream-timeout 15 --ringbuffer-size "64M" --url https://live.nicovideo.jp/watch/チャンネル名 --player-external-http-port ポート番号
 ```
 
 - Streamlinkを終了させる場合は、PowerShellないしコマンドプロンプトを閉じる、タスクマネージャから殺す、などしてください
